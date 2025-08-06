@@ -25,7 +25,8 @@ The project follows the **Medallion Architecture**, consisting of:
 - **Silver Layer**: Cleaned, standardized tables ready for transformation and joins.
 - **Gold Layer**: Business-ready data modeled in a star schema for analytics.
 
-📌 *See full architecture in `docs/data_architecture.drawio`*
+![Data Warehouse Architecture](SQL-Data%20Warehouse%20Project-Docker.png)
+
 
 ---
 
