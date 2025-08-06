@@ -92,6 +92,12 @@ data-warehouse-project/
 
 ```
 
+## 📋 Project Planning
+
+This project was planned and tracked using Notion for clear task organization, timelines, and architecture decisions.
+
+- 🗂️ [View Planning Document (Notion)]
+
 ## ☕ About Me
 
 Hi! I’m **Palak Gupta**, a Mathematics–Computer Science student with a deep interest in data analytics, business intelligence, and data engineering. I enjoy building real-world projects that combine technical skill with business insight, using tools like SQL, Docker, Notion, and automation platforms like n8n.
