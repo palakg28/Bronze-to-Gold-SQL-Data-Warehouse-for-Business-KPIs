@@ -1,101 +1,103 @@
-Data Warehouse and Analytics Project
-This portfolio project showcases the end-to-end development of a modern data warehouse and analytics system — from raw data ingestion to generating business-ready insights. Built using SQL Server on Docker (Mac), this project follows best practices in data architecture, modeling, and reporting.
+# 📦 Data Warehouse and Analytics Project  
+**By Palak Gupta**
 
+This portfolio project showcases the end-to-end development of a modern **data warehouse and analytics system** — from raw data ingestion to generating business-ready insights.  
+Built using **SQL Server via Docker on macOS**, the project follows industry best practices in data architecture, data modeling, and SQL-based reporting.
+
+---
 
 ## 📌 Table of Contents
-- [🏗️ Architecture Overview](#-architecture-overview)
-- [📖 Project Scope](#-project-scope)
-- [🧠 Skills Demonstrated](#-skills-demonstrated)
-- [🛠️ Tools & Technologies](#-tools--technologies)
-- [🚀 Dataset & Requirements](#-dataset--requirements)
-- [📂 Repository Structure](#-repository-structure)
-- [☕ About Me](#-about-me)
-- [🛡️ License](#-license)
+- [Architecture Overview](#architecture-overview)
+- [Project Scope](#project-scope)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Tools & Technologies](#tools--technologies)
+- [Dataset & Requirements](#dataset--requirements)
+- [Repository Structure](#repository-structure)
+- [About Me](#about-me)
 
 ---
 
 ## 🏗️ Architecture Overview
 
-The data warehouse follows **Medallion Architecture**:
-- **Bronze:** Raw data ingested from CSVs (ERP + CRM).
-- **Silver:** Cleaned, normalized tables ready for joins.
-- **Gold:** Business-ready fact & dimension tables in star schema.
+The project follows the **Medallion Architecture**, consisting of:
 
-![data_architecture](docs/data_architecture.drawio) <!-- Optional image preview -->
+- **Bronze Layer**: Raw data ingested from ERP and CRM CSV files.
+- **Silver Layer**: Cleaned, standardized tables ready for transformation and joins.
+- **Gold Layer**: Business-ready data modeled in a star schema for analytics.
+
+📌 *See full architecture in `docs/data_architecture.drawio`*
 
 ---
 
 ## 📖 Project Scope
 
 ### 🎯 Objectives
-- Design a scalable warehouse in **SQL Server via Docker**
-- Model clean analytical tables for business users
-- Provide SQL-based insights into customer behavior and sales
+- Design a scalable data warehouse in **SQL Server (Docker)**
+- Model clean, efficient tables optimized for analytical queries
+- Deliver SQL-based insights into customer behavior and sales
 
 ### 🔧 Deliverables
 - SQL scripts for ETL (Bronze → Silver → Gold)
-- Diagrams and planning docs (Draw.io + Notion)
-- Clear README and documentation
+- Architecture and process documentation (Draw.io + Notion)
+- Data catalog and naming conventions
+- Actionable SQL queries and metrics
 
 ---
 
 ## 🧠 Skills Demonstrated
-- SQL development and scripting
-- ETL pipeline architecture
-- Data modeling and star schema design
-- Project documentation
-- Version control (Git)
+
+- SQL development and scripting  
+- Data modeling (fact & dimension tables)  
+- ETL pipeline design  
+- Data warehouse architecture (Medallion model)  
+- Version control and project documentation  
 
 ---
 
 ## 🛠️ Tools & Technologies
-| Tool          | Purpose                          |
-|---------------|-----------------------------------|
-| **Docker**    | Run SQL Server on macOS           |
-| **VS Code**   | Query writing and code editing    |
-| **Draw.io**   | Data flow & warehouse architecture|
-| **Notion**    | Project planning + task tracking  |
-| **GitHub**    | Repo hosting and version control  |
+
+| Tool       | Purpose                                 |
+|------------|------------------------------------------|
+| **Docker** | Running SQL Server locally on macOS      |
+| **VS Code**| SQL development and script editing       |
+| **Draw.io**| Architecture, data flow, and modeling    |
+| **Notion** | Project planning and requirement tracking|
+| **GitHub** | Version control and code repository      |
 
 ---
 
 ## 🚀 Dataset & Requirements
 
-- ERP and CRM data in CSV format
-- Latest snapshot only (no historization)
-- Clear documentation of model and metrics
-- SQL-based insights for:
-  - 📊 Customer Behavior
-  - 📦 Product Performance
-  - 💸 Sales Trends
+- **Data Sources**: ERP and CRM (CSV files)
+- **Scope**: Latest snapshot only (no historization)
+- **Integration**: Unified, normalized model combining both sources
+- **Insights**:
+  - 📊 Customer behavior patterns  
+  - 📦 Product performance analysis  
+  - 💸 Sales trends and summaries  
 
 ---
 
 ## 📂 Repository Structure
-
+```text
 data-warehouse-project/
 │
-├── datasets/ # Raw data (CSV)
-├── docs/ # Architecture, catalog, models
-├── scripts/ # SQL ETL scripts (bronze → gold)
-├── tests/ # Data quality scripts
-├── README.md
-├── LICENSE
-└── requirements.txt
+├── datasets/               # Raw ERP and CRM data (CSV)
+├── docs/                   # Architecture diagrams, data catalog, models
+├── scripts/                # SQL ETL scripts (bronze → gold)
+├── tests/                  # Data quality and validation scripts
+├── README.md               # Project overview (this file)
+├── requirements.txt        # Environment dependencies
 
----
+```
 
 ## ☕ About Me
 
-Hi! I’m **Palak Gupta**, a Mathematics–Computer Science student with a passion for **data, analytics, and business intelligence**. I enjoy solving real-world problems using data engineering and automation tools like SQL, Docker, n8n, and more.
+Hi! I’m **Palak Gupta**, a Mathematics–Computer Science student with a deep interest in data analytics, business intelligence, and data engineering. I enjoy building real-world projects that combine technical skill with business insight, using tools like SQL, Docker, Notion, and automation platforms like n8n.
 
-📫 Let’s connect:  
-[LinkedIn](https://linkedin.com) • [Portfolio Website](https://yourname.github.io) • [Email](mailto:your@email.com)
+📫 **Let’s connect**:  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/palakgupta28/)  
+- 📧 [palakgupta0824@gmail.com](mailto:palakgupta0824@gmail.com)  
 
 ---
-
-## 🛡️ License
-
-This project is licensed under the **MIT License** — feel free to use and adapt with att
-
 
