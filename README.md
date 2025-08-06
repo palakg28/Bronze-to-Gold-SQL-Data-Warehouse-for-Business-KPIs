@@ -98,6 +98,16 @@ This project was planned and tracked using Notion for clear task organization, t
 
 - 🗂️ [View Planning Document (Notion)]
 
+---
+
+## 🛡️ License
+
+This project is licensed under the **MIT License**.  
+You are free to use, copy, modify, and distribute this project for any purpose, with attribution.
+
+Note: This project was inspired by educational content and adapted for learning and portfolio purposes.
+
+
 ## ☕ About Me
 
 Hi! I’m **Palak Gupta**, a Mathematics–Computer Science student with a deep interest in data analytics, business intelligence, and data engineering. I enjoy building real-world projects that combine technical skill with business insight, using tools like SQL, Docker, Notion, and automation platforms like n8n.
