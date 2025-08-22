@@ -1,49 +1,48 @@
-# 📦 Data Warehouse and Analytics Project  
-**By Palak Gupta**
-
-This portfolio project showcases the end-to-end development of a modern **data warehouse and analytics system** — from raw data ingestion to generating business-ready insights.  
-Built using **SQL Server via Docker on macOS**, the project follows industry best practices in data architecture, data modeling, and SQL-based reporting.
-
----
-
-## 📌 Table of Contents
-- [Architecture Overview](#architecture-overview)
-- [Project Scope](#project-scope)
-- [Skills Demonstrated](#skills-demonstrated)
-- [Tools & Technologies](#tools--technologies)
-- [Dataset & Requirements](#dataset--requirements)
-- [Repository Structure](#repository-structure)
-- [About Me](#about-me)
-
----
-
-## 🏗️ Architecture Overview
-
-The project follows the **Medallion Architecture**, consisting of:
-
-- **Bronze Layer**: Raw data ingested from ERP and CRM CSV files.
-- **Silver Layer**: Cleaned, standardized tables ready for transformation and joins.
-- **Gold Layer**: Business-ready data modeled in a star schema for analytics.
+📊 Data Warehouse & Analytics System
+By Palak Gupta
+This project demonstrates the design and implementation of a modern data warehouse that transforms raw ERP/CRM data into business-ready insights.
+It showcases ETL pipelines, data modeling, and reporting to answer real business questions around product performance, customer behavior, and sales trends.
+🚀 Project Overview
+Business Problem
+Organizations often struggle with siloed ERP/CRM data that prevents holistic analysis of products, customers, and revenue.
+Goal
+Build a scalable SQL-based analytics system that consolidates multiple sources into a single source of truth, empowering decision-makers with KPIs, dashboards, and actionable insights.
+Key Outcomes
+Automated ingestion of raw ERP/CRM data into a structured warehouse.
+Designed product reports that segment performance (High/Mid/Low).
+Generated KPIs: recency, AOR, avg. monthly revenue, product lifespan.
+Delivered insights for BI dashboards, SQL queries, and machine learning use cases.
+🏗️ Data Architecture & Tech Stack
+Architecture: Medallion (Bronze → Silver → Gold)
+Tools: SQL Server (Docker), VS Code, Draw.io, Notion, GitHub
+Bronze Layer: Raw data (ERP/CRM CSVs)
+Silver Layer: Standardized, cleansed tables
+Gold Layer: Star schema & aggregated views for BI/ML
+Consumption: BI dashboards, SQL reporting, ML pipelines
 
 ![Data Warehouse Architecture](docker_files/SQL-Data%20Warehouse%20Project-Docker.png)
 
 
 ---
+📈 Insights & KPIs
+The warehouse produces business-ready metrics including:
+Revenue Segmentation: Classifies products into High/Mid/Low performers.
+Customer Metrics: Unique customers per product, repeat sales trends.
+Sales KPIs:
+Total orders, revenue, quantity
+Average Order Revenue (AOR)
+Average Monthly Revenue
+Product lifespan & recency
+Business Value
+Identify underperforming products to optimize inventory.
+Track customer engagement and retention.
+Prioritize high-revenue categories for marketing & strategy.
 
-## 📖 Project Scope
-
-### 🎯 Objectives
-- Design a scalable data warehouse in **SQL Server (Docker)**
-- Model clean, efficient tables optimized for analytical queries
-- Deliver SQL-based insights into customer behavior and sales
-
-### 🔧 Deliverables
-- SQL scripts for ETL (Bronze → Silver → Gold)
-- Architecture and process documentation (Draw.io + Notion)
-- Data catalog and naming conventions
-- Actionable SQL queries and metrics
-
----
+✅ Results & Impact
+Centralized analytics: Unified ERP + CRM into one warehouse.
+Time savings: Automated KPIs eliminated manual Excel reports.
+Decision support: Product segmentation guided marketing & supply chain.
+Scalability: Ready for churn prediction and demand forecasting use cases.
 
 ## 🧠 Skills Demonstrated
 
@@ -87,7 +86,7 @@ data-warehouse-project/
 ├── docs/                   # Architecture diagrams, data catalog, models
 ├── scripts/                # SQL ETL scripts (bronze → gold)
 ├── tests/                  # Data quality and validation scripts
-├── README.md               # Project overview (this file)
+├── README.md               # Project overview 
 ├── requirements.txt        # Environment dependencies
 
 ```
