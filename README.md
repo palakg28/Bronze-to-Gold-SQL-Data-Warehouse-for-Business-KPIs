@@ -103,10 +103,6 @@ This project was planned and tracked using Notion for clear task organization, t
 ## 🛡️ License
 
 This project is licensed under the **MIT License**.  
-You are free to use, copy, modify, and distribute this project for any purpose, with attribution.
-
-Note: This project was inspired by educational content and adapted for learning and portfolio purposes.
-
 
 ## ☕ About Me
 
