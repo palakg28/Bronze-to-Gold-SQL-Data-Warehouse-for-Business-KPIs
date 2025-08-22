@@ -96,7 +96,7 @@ data-warehouse-project/
 
 This project was planned and tracked using Notion for clear task organization, timelines, and architecture decisions.
 
-- 🗂️ [View Planning Document (Notion)]
+- 🗂️View Project Timeline and Planning - https://www.notion.so/Data-Warehouse-Project-24656170e5f2804f8143d26e9aa148ed?source=copy_link
 
 ---
 
