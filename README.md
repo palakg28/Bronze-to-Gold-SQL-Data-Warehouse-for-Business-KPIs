@@ -36,25 +36,33 @@ Build a scalable **SQL-based analytics system** that consolidates multiple sourc
 
 
 ---
-📈 Insights & KPIs
-The warehouse produces business-ready metrics including:
-Revenue Segmentation: Classifies products into High/Mid/Low performers.
-Customer Metrics: Unique customers per product, repeat sales trends.
-Sales KPIs:
-Total orders, revenue, quantity
-Average Order Revenue (AOR)
-Average Monthly Revenue
-Product lifespan & recency
-Business Value
-Identify underperforming products to optimize inventory.
-Track customer engagement and retention.
-Prioritize high-revenue categories for marketing & strategy.
+## 📈 Insights & KPIs  
 
-✅ Results & Impact
-Centralized analytics: Unified ERP + CRM into one warehouse.
-Time savings: Automated KPIs eliminated manual Excel reports.
-Decision support: Product segmentation guided marketing & supply chain.
-Scalability: Ready for churn prediction and demand forecasting use cases.
+The warehouse produces **business-ready metrics**, including:  
+
+- **Revenue Segmentation:** Classifies products into High/Mid/Low performers.  
+- **Customer Metrics:** Unique customers per product, repeat sales trends.  
+- **Sales KPIs:**  
+  - Total orders, revenue, quantity  
+  - Average Order Revenue (AOR)  
+  - Average Monthly Revenue  
+  - Product lifespan & recency  
+
+### Business Value  
+- 📦 Identify underperforming products to optimize inventory.  
+- 👥 Track customer engagement and retention.  
+- 💸 Prioritize high-revenue categories for marketing & strategy.  
+
+---
+
+## ✅ Results & Impact  
+
+- **Centralized analytics** → Unified ERP + CRM into one warehouse.  
+- **Time savings** → Automated KPIs eliminated manual Excel reports.  
+- **Decision support** → Product segmentation guided marketing & supply chain.  
+- **Scalability** → Ready for churn prediction and demand forecasting use cases.  
+
+---
 
 ## 🧠 Skills Demonstrated
 
