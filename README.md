@@ -1,24 +1,36 @@
-📊 Data Warehouse & Analytics System
-By Palak Gupta
-This project demonstrates the design and implementation of a modern data warehouse that transforms raw ERP/CRM data into business-ready insights.
-It showcases ETL pipelines, data modeling, and reporting to answer real business questions around product performance, customer behavior, and sales trends.
-🚀 Project Overview
-Business Problem
-Organizations often struggle with siloed ERP/CRM data that prevents holistic analysis of products, customers, and revenue.
-Goal
-Build a scalable SQL-based analytics system that consolidates multiple sources into a single source of truth, empowering decision-makers with KPIs, dashboards, and actionable insights.
-Key Outcomes
-Automated ingestion of raw ERP/CRM data into a structured warehouse.
-Designed product reports that segment performance (High/Mid/Low).
-Generated KPIs: recency, AOR, avg. monthly revenue, product lifespan.
-Delivered insights for BI dashboards, SQL queries, and machine learning use cases.
-🏗️ Data Architecture & Tech Stack
-Architecture: Medallion (Bronze → Silver → Gold)
-Tools: SQL Server (Docker), VS Code, Draw.io, Notion, GitHub
-Bronze Layer: Raw data (ERP/CRM CSVs)
-Silver Layer: Standardized, cleansed tables
-Gold Layer: Star schema & aggregated views for BI/ML
-Consumption: BI dashboards, SQL reporting, ML pipelines
+# 📊 Data Warehouse & Analytics System  
+**By Palak Gupta**
+
+This project demonstrates the design and implementation of a **modern data warehouse** that transforms raw ERP/CRM data into **business-ready insights**.  
+It showcases **ETL pipelines, data modeling, and reporting** to answer real business questions around **product performance, customer behavior, and sales trends**.  
+
+---
+
+## 🚀 Project Overview  
+
+### Business Problem  
+Organizations often struggle with siloed ERP/CRM data that prevents holistic analysis of products, customers, and revenue.  
+
+### Goal  
+Build a scalable **SQL-based analytics system** that consolidates multiple sources into a single source of truth, empowering decision-makers with **KPIs, dashboards, and actionable insights**.  
+
+### Key Outcomes  
+- ✅ Automated ingestion of raw ERP/CRM data into a structured warehouse.  
+- ✅ Designed product reports that segment performance (**High/Mid/Low**).  
+- ✅ Generated KPIs: **recency, AOR, avg. monthly revenue, product lifespan**.  
+- ✅ Delivered insights for **BI dashboards, SQL queries, and machine learning use cases**.  
+
+---
+
+## 🏗️ Data Architecture & Tech Stack  
+
+**Architecture:** Medallion (Bronze → Silver → Gold)  
+**Tools:** SQL Server (Docker), VS Code, Draw.io, Notion, GitHub  
+
+- **Bronze Layer:** Raw data (ERP/CRM CSVs)  
+- **Silver Layer:** Standardized, cleansed tables  
+- **Gold Layer:** Star schema & aggregated views for BI/ML  
+- **Consumption:** BI dashboards, SQL reporting, ML pipelines 
 
 ![Data Warehouse Architecture](docker_files/SQL-Data%20Warehouse%20Project-Docker.png)
 
