@@ -118,10 +118,6 @@ This project was **planned and tracked in Notion**, ensuring clear task organiza
 
 ---
 
-## 🛡️ License
-
-This project is licensed under the **MIT License**.  
-
 ## ☕ About Me
 
 Hi! I’m **Palak Gupta**, a Mathematics–Computer Science student with a deep interest in data analytics, business intelligence, and data engineering. I enjoy building real-world projects that combine technical skill with business insight, using tools like SQL, Docker, Notion, and automation platforms like n8n.
